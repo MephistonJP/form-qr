@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Opening form…</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+           max-width: 600px; margin: 15vh auto; padding: 0 20px;
+           line-height: 1.5; color: #222; text-align: center; }
+    a { color: #175bd8; }
+  </style>
+</head>
+<body>
+  <h1>Opening form…</h1>
+  <p>If you are not redirected automatically, <a id="continue-link" href="#">tap here to open the form</a>.</p>
+  <script>
+    // TO CHANGE THE DESTINATION, EDIT ONLY THIS LINE:
+    const DESTINATION_URL = "https://forms.gle/ByAWdjdtGmTz2i7m6";
+
+    document.getElementById("continue-link").href = DESTINATION_URL;
+    window.location.replace(DESTINATION_URL);
+  </script>
+  <noscript>JavaScript is required for this redirect. Please ask the QR code owner for the direct form link.</noscript>
+</body>
+</html>
